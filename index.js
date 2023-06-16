@@ -46,7 +46,7 @@ function handleRetweetClick(tweetId){
     render() 
 }
 
-function handleReplyClick(replyId){
+const handleReplyClick = (replyId) => {
     document.getElementById(`replies-${replyId}`).classList.toggle('hidden')
 }
 
